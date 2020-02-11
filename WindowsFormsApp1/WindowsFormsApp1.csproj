@@ -131,6 +131,12 @@
     <Compile Include="Luong.Designer.cs">
       <DependentUpon>Luong.cs</DependentUpon>
     </Compile>
+    <Compile Include="NghiPhep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NghiPhep.Designer.cs">
+      <DependentUpon>NghiPhep.cs</DependentUpon>
+    </Compile>
     <Compile Include="Profile.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -139,6 +145,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThaiSan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThaiSan.Designer.cs">
+      <DependentUpon>ThaiSan.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThanNhan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -211,6 +223,9 @@
     <EmbeddedResource Include="Luong.resx">
       <DependentUpon>Luong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NghiPhep.resx">
+      <DependentUpon>NghiPhep.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,6 +233,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThaiSan.resx">
+      <DependentUpon>ThaiSan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThanNhan.resx">
       <DependentUpon>ThanNhan.cs</DependentUpon>
@@ -314,6 +332,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\salary1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search2.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

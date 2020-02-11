@@ -26,3 +26,5 @@ D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DSKLN
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThanNhan.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThuongOfNV.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.KLofNV.resources
+D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThaiSan.resources
+D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NghiPhep.resources

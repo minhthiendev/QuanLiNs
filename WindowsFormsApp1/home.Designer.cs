@@ -118,7 +118,8 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::WindowsFormsApp1.Properties.Resources.search1;
+            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox10.Image = global::WindowsFormsApp1.Properties.Resources.search2;
             this.pictureBox10.Location = new System.Drawing.Point(330, 21);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(27, 26);
