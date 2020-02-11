@@ -36,16 +36,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.makl = new System.Windows.Forms.TextBox();
             this.tp = new System.Windows.Forms.TextBox();
-            this.gc = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.tenkl = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,14 +80,14 @@
             // 
             // ht
             // 
-            this.ht.Location = new System.Drawing.Point(718, 88);
+            this.ht.Location = new System.Drawing.Point(264, 214);
             this.ht.Name = "ht";
             this.ht.Size = new System.Drawing.Size(143, 22);
             this.ht.TabIndex = 3;
             // 
             // nd
             // 
-            this.nd.Location = new System.Drawing.Point(248, 179);
+            this.nd.Location = new System.Drawing.Point(757, 91);
             this.nd.Name = "nd";
             this.nd.Size = new System.Drawing.Size(190, 74);
             this.nd.TabIndex = 4;
@@ -97,7 +96,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(165, 179);
+            this.label2.Location = new System.Drawing.Point(674, 94);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 17);
             this.label2.TabIndex = 5;
@@ -106,7 +105,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(640, 91);
+            this.label4.Location = new System.Drawing.Point(165, 214);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(72, 17);
             this.label4.TabIndex = 7;
@@ -115,20 +114,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(888, 94);
+            this.label5.Location = new System.Drawing.Point(435, 219);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 17);
             this.label5.TabIndex = 8;
             this.label5.Text = "Tiền phạt:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(510, 179);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 17);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Ghi chú:";
             // 
             // makl
             // 
@@ -139,18 +129,10 @@
             // 
             // tp
             // 
-            this.tp.Location = new System.Drawing.Point(977, 88);
+            this.tp.Location = new System.Drawing.Point(513, 216);
             this.tp.Name = "tp";
             this.tp.Size = new System.Drawing.Size(145, 22);
             this.tp.TabIndex = 12;
-            // 
-            // gc
-            // 
-            this.gc.Location = new System.Drawing.Point(574, 176);
-            this.gc.Name = "gc";
-            this.gc.Size = new System.Drawing.Size(190, 74);
-            this.gc.TabIndex = 13;
-            this.gc.Text = "";
             // 
             // button2
             // 
@@ -180,15 +162,6 @@
             this.button4.Text = "Export";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(555, 308);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 17);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "Tiền phạt:";
-            // 
             // tenkl
             // 
             this.tenkl.Location = new System.Drawing.Point(476, 88);
@@ -205,20 +178,38 @@
             this.label7.TabIndex = 18;
             this.label7.Text = "Tên Kĩ Luật:";
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(574, 289);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(87, 35);
+            this.button5.TabIndex = 20;
+            this.button5.Text = "Reset";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(438, 289);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(115, 35);
+            this.button6.TabIndex = 21;
+            this.button6.Text = "Ds NV bị KL";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // BangKiluat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.tenkl);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.gc);
             this.Controls.Add(this.tp);
             this.Controls.Add(this.makl);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -246,15 +237,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox makl;
         private System.Windows.Forms.TextBox tp;
-        private System.Windows.Forms.RichTextBox gc;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox tenkl;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }

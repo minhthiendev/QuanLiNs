@@ -22,3 +22,7 @@ D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.BangK
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Profile.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.CTHopDong.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddNV.resources
+D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DSKLNV.resources
+D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThanNhan.resources
+D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThuongOfNV.resources
+D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.KLofNV.resources

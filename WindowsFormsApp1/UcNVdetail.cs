@@ -82,6 +82,43 @@ namespace WindowsFormsApp1
            Instance.PanelContainer.Controls["CTHopDong"].BringToFront();
 
         }
-       
+
+        private void nhânThânToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (!Instance.PanelContainer.Controls.ContainsKey("ThanNhan"))
+            {
+                ThanNhan tn = new ThanNhan();
+                tn.Dock = DockStyle.Fill;
+                Instance.PanelContainer.Controls.Add(tn);
+            }
+            Instance.PanelContainer.Controls["ThanNhan"].BringToFront();
+        }
+
+        private void thưởngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!Instance.PanelContainer.Controls.ContainsKey("ThuongOfNV"))
+            {
+                ThuongOfNV tonv = new ThuongOfNV();
+                tonv.Dock = DockStyle.Fill;
+                Instance.PanelContainer.Controls.Add(tonv);
+            }
+            Instance.PanelContainer.Controls["ThuongOfNV"].BringToFront();
+        }
+
+        private void kĩLuậtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!Instance.PanelContainer.Controls.ContainsKey("KLofNV"))
+            {
+                KLofNV tonv = new KLofNV();
+                tonv.Dock = DockStyle.Fill;
+                Instance.PanelContainer.Controls.Add(tonv);
+            }
+            Instance.PanelContainer.Controls["KLofNV"].BringToFront();
+        }
+
+        private void thaiSảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

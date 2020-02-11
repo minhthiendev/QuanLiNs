@@ -72,8 +72,10 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-           // try
-           // {
+             try
+            {
+            if (checkData())
+            {
                 DataConnection dc = new DataConnection();
                 SqlConnection connect = dc.getConnect();
                 connect.Open();
@@ -83,17 +85,35 @@ namespace WindowsFormsApp1
                 cmd.Parameters.Add("@MaKiLuat", SqlDbType.VarChar).Value = makl.Text;
                 cmd.Parameters.Add("@TenKiLuat", SqlDbType.NVarChar).Value = tenkl.Text;
                 cmd.Parameters.Add("@HinhThuc", SqlDbType.NVarChar).Value = ht.Text;
-                cmd.Parameters.Add("@SoTienPhat", SqlDbType.Money).Value = Num.Parse(tp.Text);
+                cmd.Parameters.Add("@SoTienPhat", SqlDbType.Money).Value =tp.Text;
                 cmd.Parameters.Add("@NoiDung", SqlDbType.NVarChar).Value = nd.Text;
                 cmd.ExecuteNonQuery();
+                    MessageBox.Show("Thêm Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    string sql1 = "select * from BangKiLuat";
+                    SqlDataAdapter sqlad = new SqlDataAdapter(sql1, connect);
 
-           // }
-           // catch
-           // {
-            //    MessageBox.Show(, "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //}
+                    DataTable dt = new DataTable();
+                    sqlad.Fill(dt);
+                    dataGridView1.DataSource = dt;
+                }
+           }
+           catch
+           {
+                MessageBox.Show("Kiểm tra lại Kiểu dữ liệu đầu vào","Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
 
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (!home.Instance.PanelContainer.Controls.ContainsKey("DSKLNV"))
+            {
+                DSKLNV dskl = new DSKLNV();
+               dskl.Dock = DockStyle.Fill;
+                home.Instance.PanelContainer.Controls.Add(dskl);
+            }
+            home.Instance.PanelContainer.Controls["DSKLNV"].BringToFront();
         }
     }
 }

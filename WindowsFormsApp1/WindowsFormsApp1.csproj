@@ -89,6 +89,12 @@
       <DependentUpon>DaoTao.cs</DependentUpon>
     </Compile>
     <Compile Include="DataConnection.cs" />
+    <Compile Include="DSKLNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DSKLNV.Designer.cs">
+      <DependentUpon>DSKLNV.cs</DependentUpon>
+    </Compile>
     <Compile Include="home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,12 @@
     </Compile>
     <Compile Include="HopDong.Designer.cs">
       <DependentUpon>HopDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KLofNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KLofNV.Designer.cs">
+      <DependentUpon>KLofNV.cs</DependentUpon>
     </Compile>
     <Compile Include="ListNhanVien.cs">
       <SubType>UserControl</SubType>
@@ -127,6 +139,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThanNhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThanNhan.Designer.cs">
+      <DependentUpon>ThanNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThuongOfNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThuongOfNV.Designer.cs">
+      <DependentUpon>ThuongOfNV.cs</DependentUpon>
+    </Compile>
     <Compile Include="TuyenDung.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -166,11 +190,17 @@
     <EmbeddedResource Include="DaoTao.resx">
       <DependentUpon>DaoTao.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DSKLNV.resx">
+      <DependentUpon>DSKLNV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="home.resx">
       <DependentUpon>home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HopDong.resx">
       <DependentUpon>HopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KLofNV.resx">
+      <DependentUpon>KLofNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListNhanVien.resx">
       <DependentUpon>ListNhanVien.cs</DependentUpon>
@@ -188,6 +218,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThanNhan.resx">
+      <DependentUpon>ThanNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThuongOfNV.resx">
+      <DependentUpon>ThuongOfNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TuyenDung.resx">
       <DependentUpon>TuyenDung.cs</DependentUpon>
@@ -272,6 +308,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pre1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salary1.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
