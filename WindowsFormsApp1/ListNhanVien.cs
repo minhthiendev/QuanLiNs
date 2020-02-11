@@ -25,6 +25,7 @@ namespace WindowsFormsApp1
         
         private void button2_Click(object sender, EventArgs e)
         {
+            home.Instance.LabelFunc.Text = "Thêm nhân viên";
             if (!home.Instance.PanelContainer.Controls.ContainsKey("AddNV"))
             {
                 AddNV anv = new AddNV();

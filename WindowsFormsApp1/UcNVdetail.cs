@@ -49,7 +49,7 @@ namespace WindowsFormsApp1
         private void UcNVdetail_Load(object sender, EventArgs e)
         {
             _obj = this;
-            hoso.BackColor = Color.Azure;
+            hoso.BackColor = Color.DodgerBlue;
             
             Profile pr = new Profile(this.manv);
             pr.Dock = DockStyle.Fill;
@@ -60,8 +60,13 @@ namespace WindowsFormsApp1
 
         private void hoso_Click(object sender, EventArgs e)
         {
-            hoso.BackColor = Color.Azure;
-
+            hoso.BackColor = Color.DodgerBlue;
+            nhanthan.BackColor = Color.Beige;
+            nghiphep.BackColor = Color.Beige;
+            kiluat.BackColor = Color.Beige;
+            thuong.BackColor = Color.Beige;
+            thaisan.BackColor = Color.Beige;
+            
             if (!Instance.PanelContainer.Controls.ContainsKey("Profile"))
             {
                 Profile pr = new Profile();
@@ -71,20 +76,16 @@ namespace WindowsFormsApp1
             Instance.PanelContainer.Controls["Profile"].BringToFront();
         }
 
-        private void nhânThânToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (!Instance.PanelContainer.Controls.ContainsKey("CTHopDong"))
-            {
-                CTHopDong cthd = new CTHopDong();
-                cthd.Dock = DockStyle.Fill;
-                Instance.PanelContainer.Controls.Add(cthd);
-            }
-           Instance.PanelContainer.Controls["CTHopDong"].BringToFront();
-
-        }
+        
 
         private void nhânThânToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            hoso.BackColor = Color.Beige;
+            nhanthan.BackColor = Color.DodgerBlue;
+            nghiphep.BackColor = Color.Beige;
+            kiluat.BackColor = Color.Beige;
+            thuong.BackColor = Color.Beige;
+            thaisan.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("ThanNhan"))
             {
                 ThanNhan tn = new ThanNhan();
@@ -96,6 +97,12 @@ namespace WindowsFormsApp1
 
         private void thưởngToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            hoso.BackColor = Color.Beige;
+            nhanthan.BackColor = Color.Beige;
+            nghiphep.BackColor = Color.Beige;
+            kiluat.BackColor = Color.Beige;
+            thuong.BackColor = Color.DodgerBlue;
+            thaisan.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("ThuongOfNV"))
             {
                 ThuongOfNV tonv = new ThuongOfNV();
@@ -107,6 +114,12 @@ namespace WindowsFormsApp1
 
         private void kĩLuậtToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            hoso.BackColor = Color.Beige;
+            nhanthan.BackColor = Color.Beige;
+            nghiphep.BackColor = Color.Beige;
+            kiluat.BackColor = Color.DodgerBlue;
+            thuong.BackColor = Color.Beige;
+            thaisan.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("KLofNV"))
             {
                 KLofNV tonv = new KLofNV();
@@ -118,6 +131,12 @@ namespace WindowsFormsApp1
 
         private void thaiSảnToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            hoso.BackColor = Color.Beige;
+            nhanthan.BackColor = Color.Beige;
+            nghiphep.BackColor = Color.Beige;
+            kiluat.BackColor = Color.Beige;
+            thuong.BackColor = Color.Beige;
+            thaisan.BackColor = Color.DodgerBlue;
             if (!Instance.PanelContainer.Controls.ContainsKey("ThaiSan"))
             {
                 ThaiSan tonv = new ThaiSan();
@@ -129,6 +148,12 @@ namespace WindowsFormsApp1
 
         private void ngườiThânToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            hoso.BackColor = Color.Beige;
+            nhanthan.BackColor = Color.Beige;
+            nghiphep.BackColor = Color.DodgerBlue;
+            kiluat.BackColor = Color.Beige;
+            thuong.BackColor = Color.Beige;
+            thaisan.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("NghiPhep"))
             {
                 NghiPhep tonv = new NghiPhep();

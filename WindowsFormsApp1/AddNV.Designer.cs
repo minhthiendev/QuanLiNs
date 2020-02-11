@@ -70,7 +70,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(104, 75);
+            this.label1.Location = new System.Drawing.Point(129, 147);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 20);
             this.label1.TabIndex = 0;
@@ -80,7 +80,7 @@
             // 
             this.mnv.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mnv.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.mnv.Location = new System.Drawing.Point(193, 72);
+            this.mnv.Location = new System.Drawing.Point(218, 144);
             this.mnv.Name = "mnv";
             this.mnv.Size = new System.Drawing.Size(172, 28);
             this.mnv.TabIndex = 1;
@@ -89,7 +89,7 @@
             // 
             this.tnv.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tnv.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tnv.Location = new System.Drawing.Point(193, 119);
+            this.tnv.Location = new System.Drawing.Point(218, 191);
             this.tnv.Name = "tnv";
             this.tnv.Size = new System.Drawing.Size(172, 28);
             this.tnv.TabIndex = 3;
@@ -99,7 +99,7 @@
             this.ddss.AutoSize = true;
             this.ddss.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ddss.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ddss.Location = new System.Drawing.Point(98, 122);
+            this.ddss.Location = new System.Drawing.Point(123, 194);
             this.ddss.Name = "ddss";
             this.ddss.Size = new System.Drawing.Size(63, 20);
             this.ddss.TabIndex = 2;
@@ -109,7 +109,7 @@
             // 
             this.ns.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ns.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ns.Location = new System.Drawing.Point(193, 162);
+            this.ns.Location = new System.Drawing.Point(218, 234);
             this.ns.Name = "ns";
             this.ns.Size = new System.Drawing.Size(172, 28);
             this.ns.TabIndex = 5;
@@ -119,7 +119,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(77, 165);
+            this.label3.Location = new System.Drawing.Point(102, 237);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 20);
             this.label3.TabIndex = 4;
@@ -129,7 +129,7 @@
             // 
             this.noisinh.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noisinh.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.noisinh.Location = new System.Drawing.Point(193, 204);
+            this.noisinh.Location = new System.Drawing.Point(218, 276);
             this.noisinh.Name = "noisinh";
             this.noisinh.Size = new System.Drawing.Size(172, 28);
             this.noisinh.TabIndex = 7;
@@ -139,7 +139,7 @@
             this.fffggfg.AutoSize = true;
             this.fffggfg.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fffggfg.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.fffggfg.Location = new System.Drawing.Point(90, 207);
+            this.fffggfg.Location = new System.Drawing.Point(115, 279);
             this.fffggfg.Name = "fffggfg";
             this.fffggfg.Size = new System.Drawing.Size(71, 20);
             this.fffggfg.TabIndex = 6;
@@ -149,7 +149,7 @@
             // 
             this.tamt.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tamt.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tamt.Location = new System.Drawing.Point(193, 248);
+            this.tamt.Location = new System.Drawing.Point(218, 320);
             this.tamt.Name = "tamt";
             this.tamt.Size = new System.Drawing.Size(172, 28);
             this.tamt.TabIndex = 9;
@@ -159,7 +159,7 @@
             this.dffg.AutoSize = true;
             this.dffg.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dffg.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dffg.Location = new System.Drawing.Point(90, 251);
+            this.dffg.Location = new System.Drawing.Point(115, 323);
             this.dffg.Name = "dffg";
             this.dffg.Size = new System.Drawing.Size(70, 20);
             this.dffg.TabIndex = 8;
@@ -169,7 +169,7 @@
             // 
             this.qq.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qq.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.qq.Location = new System.Drawing.Point(193, 292);
+            this.qq.Location = new System.Drawing.Point(218, 364);
             this.qq.Name = "qq";
             this.qq.Size = new System.Drawing.Size(172, 28);
             this.qq.TabIndex = 11;
@@ -179,7 +179,7 @@
             this.dvs.AutoSize = true;
             this.dvs.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dvs.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dvs.Location = new System.Drawing.Point(79, 295);
+            this.dvs.Location = new System.Drawing.Point(104, 367);
             this.dvs.Name = "dvs";
             this.dvs.Size = new System.Drawing.Size(82, 20);
             this.dvs.TabIndex = 10;
@@ -189,7 +189,7 @@
             // 
             this.qt.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qt.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.qt.Location = new System.Drawing.Point(193, 339);
+            this.qt.Location = new System.Drawing.Point(218, 411);
             this.qt.Name = "qt";
             this.qt.Size = new System.Drawing.Size(172, 28);
             this.qt.TabIndex = 13;
@@ -199,7 +199,7 @@
             this.qtfe.AutoSize = true;
             this.qtfe.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qtfe.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.qtfe.Location = new System.Drawing.Point(76, 342);
+            this.qtfe.Location = new System.Drawing.Point(101, 414);
             this.qtfe.Name = "qtfe";
             this.qtfe.Size = new System.Drawing.Size(85, 20);
             this.qtfe.TabIndex = 12;
@@ -209,7 +209,7 @@
             // 
             this.dto.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dto.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dto.Location = new System.Drawing.Point(193, 388);
+            this.dto.Location = new System.Drawing.Point(218, 460);
             this.dto.Name = "dto";
             this.dto.Size = new System.Drawing.Size(172, 28);
             this.dto.TabIndex = 15;
@@ -219,7 +219,7 @@
             this.fdfdgg.AutoSize = true;
             this.fdfdgg.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fdfdgg.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.fdfdgg.Location = new System.Drawing.Point(90, 391);
+            this.fdfdgg.Location = new System.Drawing.Point(115, 463);
             this.fdfdgg.Name = "fdfdgg";
             this.fdfdgg.Size = new System.Drawing.Size(70, 20);
             this.fdfdgg.TabIndex = 14;
@@ -229,7 +229,7 @@
             // 
             this.cmnd.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmnd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmnd.Location = new System.Drawing.Point(615, 122);
+            this.cmnd.Location = new System.Drawing.Point(640, 194);
             this.cmnd.Name = "cmnd";
             this.cmnd.Size = new System.Drawing.Size(193, 28);
             this.cmnd.TabIndex = 17;
@@ -239,7 +239,7 @@
             this.fsds.AutoSize = true;
             this.fsds.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fsds.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.fsds.Location = new System.Drawing.Point(517, 125);
+            this.fsds.Location = new System.Drawing.Point(542, 197);
             this.fsds.Name = "fsds";
             this.fsds.Size = new System.Drawing.Size(62, 20);
             this.fsds.TabIndex = 16;
@@ -249,7 +249,7 @@
             // 
             this.ngc.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ngc.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ngc.Location = new System.Drawing.Point(615, 169);
+            this.ngc.Location = new System.Drawing.Point(640, 241);
             this.ngc.Name = "ngc";
             this.ngc.Size = new System.Drawing.Size(193, 28);
             this.ngc.TabIndex = 19;
@@ -259,7 +259,7 @@
             this.dd.AutoSize = true;
             this.dd.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dd.Location = new System.Drawing.Point(497, 172);
+            this.dd.Location = new System.Drawing.Point(522, 244);
             this.dd.Name = "dd";
             this.dd.Size = new System.Drawing.Size(82, 20);
             this.dd.TabIndex = 18;
@@ -269,7 +269,7 @@
             // 
             this.noic.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noic.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.noic.Location = new System.Drawing.Point(615, 212);
+            this.noic.Location = new System.Drawing.Point(640, 284);
             this.noic.Name = "noic";
             this.noic.Size = new System.Drawing.Size(193, 28);
             this.noic.TabIndex = 21;
@@ -279,7 +279,7 @@
             this.f.AutoSize = true;
             this.f.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.f.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.f.Location = new System.Drawing.Point(510, 215);
+            this.f.Location = new System.Drawing.Point(535, 287);
             this.f.Name = "f";
             this.f.Size = new System.Drawing.Size(69, 20);
             this.f.TabIndex = 20;
@@ -289,7 +289,7 @@
             // 
             this.email.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.email.Location = new System.Drawing.Point(615, 254);
+            this.email.Location = new System.Drawing.Point(640, 326);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(193, 28);
             this.email.TabIndex = 23;
@@ -299,7 +299,7 @@
             this.hjklk.AutoSize = true;
             this.hjklk.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hjklk.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.hjklk.Location = new System.Drawing.Point(524, 257);
+            this.hjklk.Location = new System.Drawing.Point(549, 329);
             this.hjklk.Name = "hjklk";
             this.hjklk.Size = new System.Drawing.Size(55, 20);
             this.hjklk.TabIndex = 22;
@@ -309,7 +309,7 @@
             // 
             this.sdt.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sdt.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.sdt.Location = new System.Drawing.Point(615, 298);
+            this.sdt.Location = new System.Drawing.Point(640, 370);
             this.sdt.Name = "sdt";
             this.sdt.Size = new System.Drawing.Size(193, 28);
             this.sdt.TabIndex = 25;
@@ -319,7 +319,7 @@
             this.dfghj.AutoSize = true;
             this.dfghj.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dfghj.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dfghj.Location = new System.Drawing.Point(540, 301);
+            this.dfghj.Location = new System.Drawing.Point(565, 373);
             this.dfghj.Name = "dfghj";
             this.dfghj.Size = new System.Drawing.Size(39, 20);
             this.dfghj.TabIndex = 24;
@@ -329,7 +329,7 @@
             // 
             this.phg.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.phg.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.phg.Location = new System.Drawing.Point(615, 342);
+            this.phg.Location = new System.Drawing.Point(640, 414);
             this.phg.Name = "phg";
             this.phg.Size = new System.Drawing.Size(193, 28);
             this.phg.TabIndex = 27;
@@ -339,7 +339,7 @@
             this.sddfghj.AutoSize = true;
             this.sddfghj.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sddfghj.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.sddfghj.Location = new System.Drawing.Point(517, 345);
+            this.sddfghj.Location = new System.Drawing.Point(542, 417);
             this.sddfghj.Name = "sddfghj";
             this.sddfghj.Size = new System.Drawing.Size(62, 20);
             this.sddfghj.TabIndex = 26;
@@ -349,7 +349,7 @@
             // 
             this.cv.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cv.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cv.Location = new System.Drawing.Point(615, 389);
+            this.cv.Location = new System.Drawing.Point(640, 461);
             this.cv.Name = "cv";
             this.cv.Size = new System.Drawing.Size(193, 28);
             this.cv.TabIndex = 29;
@@ -359,7 +359,7 @@
             this.adfghj.AutoSize = true;
             this.adfghj.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.adfghj.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.adfghj.Location = new System.Drawing.Point(508, 392);
+            this.adfghj.Location = new System.Drawing.Point(533, 464);
             this.adfghj.Name = "adfghj";
             this.adfghj.Size = new System.Drawing.Size(71, 20);
             this.adfghj.TabIndex = 28;
@@ -368,7 +368,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.button1.Location = new System.Drawing.Point(928, 77);
+            this.button1.Location = new System.Drawing.Point(953, 149);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 35);
             this.button1.TabIndex = 30;
@@ -379,28 +379,30 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.button2.Location = new System.Drawing.Point(928, 150);
+            this.button2.Location = new System.Drawing.Point(953, 222);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 35);
             this.button2.TabIndex = 31;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.button3.Location = new System.Drawing.Point(928, 221);
+            this.button3.Location = new System.Drawing.Point(953, 293);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 35);
             this.button3.TabIndex = 32;
             this.button3.Text = "Cancel";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Gt
             // 
             this.Gt.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Gt.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Gt.Location = new System.Drawing.Point(615, 72);
+            this.Gt.Location = new System.Drawing.Point(640, 144);
             this.Gt.Name = "Gt";
             this.Gt.Size = new System.Drawing.Size(193, 28);
             this.Gt.TabIndex = 34;
@@ -410,7 +412,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(517, 75);
+            this.label2.Location = new System.Drawing.Point(542, 147);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 33;

@@ -97,14 +97,14 @@ namespace WindowsFormsApp1
                     SqlCommand cmd = new SqlCommand(sql, connect);
                     cmd.Parameters.Add("@MaNV", SqlDbType.VarChar).Value = mnv.Text;
                     cmd.Parameters.Add("@TenNV", SqlDbType.NVarChar).Value = tnv.Text;
-                    cmd.Parameters.Add("@NgaySinh", SqlDbType.Date).Value = ns.Text;
+                    cmd.Parameters.Add("@NgaySinh", SqlDbType.DateTime).Value = ns.Text;
                     cmd.Parameters.Add("@NoiSinh", SqlDbType.NVarChar).Value = noisinh.Text;
                     cmd.Parameters.Add("@TamTru", SqlDbType.NVarChar).Value = tamt.Text;
                     cmd.Parameters.Add("@QueQuan", SqlDbType.NVarChar).Value = qq.Text;
                     cmd.Parameters.Add("@QuocTich", SqlDbType.NVarChar).Value = qt.Text;
                     cmd.Parameters.Add("@DanToc", SqlDbType.VarChar).Value = dto.Text;
                     cmd.Parameters.Add("@CMND", SqlDbType.VarChar).Value = cmnd.Text;
-                    cmd.Parameters.Add("@NgayCap", SqlDbType.Date).Value = ngc.Text;
+                    cmd.Parameters.Add("@NgayCap", SqlDbType.DateTime).Value = ngc.Text;
                     cmd.Parameters.Add("@NoiCap", SqlDbType.NVarChar).Value = noic.Text;
                     cmd.Parameters.Add("@Email", SqlDbType.VarChar).Value = email.Text;
                     cmd.Parameters.Add("@Sdt", SqlDbType.VarChar).Value = sdt.Text;
@@ -124,6 +124,11 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
             mnv.Text = null;
             tnv.Text = null;
             ngc.Text = null;
@@ -139,6 +144,22 @@ namespace WindowsFormsApp1
             qt.Text = null;
             mnv.Text = null;
             mnv.Text = null;
+            Gt.Text = null;
+            noic.Text = null;
+            noisinh.Text = null;
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            home.Instance.LabelFunc.Text = "Quản lí Nhân Viên";
+            if (!home.Instance.PanelContainer.Controls.ContainsKey("ListNhanVien"))
+            {
+                ListNhanVien lnv = new ListNhanVien();
+                lnv.Dock = DockStyle.Fill;
+                home.Instance.PanelContainer.Controls.Add(lnv);
+            }
+            home.Instance.PanelContainer.Controls["ListNhanVien"].BringToFront();
         }
     }
 }

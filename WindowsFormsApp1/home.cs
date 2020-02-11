@@ -30,6 +30,11 @@ namespace WindowsFormsApp1
             get { return pContainer; }
             set { pContainer = value; }
         }
+        public Label LabelFunc
+        {
+            get { return tenchucnang; }
+            set { tenchucnang = value; }
+        }
         public home()
         {
             InitializeComponent();
@@ -39,6 +44,28 @@ namespace WindowsFormsApp1
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
+            tenchucnang.Text = "Quản lí Kĩ luật";
+            pictureBox6.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox6.BackColor = Color.DodgerBlue;
+            pictureBox3.BorderStyle = BorderStyle.None;
+            pictureBox3.BackColor = Color.Black;
+            pictureBox4.BorderStyle = BorderStyle.None;
+            pictureBox4.BackColor = Color.Black;
+            pictureBox5.BorderStyle = BorderStyle.None;
+            pictureBox5.BackColor = Color.Black;
+            pictureBox2.BorderStyle = BorderStyle.None;
+            pictureBox2.BackColor = Color.Black;
+            pictureBox7.BorderStyle = BorderStyle.None;
+            pictureBox7.BackColor = Color.Black;
+            pictureBox9.BorderStyle = BorderStyle.None;
+            pictureBox9.BackColor = Color.Black;
+            pictureBox12.BorderStyle = BorderStyle.None;
+            pictureBox12.BackColor = Color.Black;
+            pictureBox13.BorderStyle = BorderStyle.None;
+            pictureBox13.BackColor = Color.Black;
+            pictureBox14.BorderStyle = BorderStyle.None;
+            pictureBox14.BackColor = Color.Black;
+
             if (!Instance.PanelContainer.Controls.ContainsKey("BangKiLuat"))
             {
                 BangKiluat bkl = new BangKiluat();
@@ -76,6 +103,30 @@ namespace WindowsFormsApp1
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
+            tenchucnang.Text = "Quản lí khen thưởng";
+            pictureBox5.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox5.BackColor = Color.DodgerBlue;
+            pictureBox3.BorderStyle = BorderStyle.None;
+            pictureBox3.BackColor = Color.Black;
+            pictureBox4.BorderStyle = BorderStyle.None;
+            pictureBox4.BackColor = Color.Black;
+            pictureBox2.BorderStyle = BorderStyle.None;
+            pictureBox2.BackColor = Color.Black;
+            pictureBox6.BorderStyle = BorderStyle.None;
+            pictureBox6.BackColor = Color.Black;
+            pictureBox7.BorderStyle = BorderStyle.None;
+            pictureBox7.BackColor = Color.Black;
+            pictureBox9.BorderStyle = BorderStyle.None;
+            pictureBox9.BackColor = Color.Black;
+            pictureBox12.BorderStyle = BorderStyle.None;
+            pictureBox12.BackColor = Color.Black;
+            pictureBox13.BorderStyle = BorderStyle.None;
+            pictureBox13.BackColor = Color.Black;
+            pictureBox14.BorderStyle = BorderStyle.None;
+            pictureBox14.BackColor = Color.Black;
+
+
+
             if (!Instance.PanelContainer.Controls.ContainsKey("BangKhenThuong"))
             {
                 BangKhenThuong bkt = new BangKhenThuong();
@@ -88,7 +139,28 @@ namespace WindowsFormsApp1
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            tenchucnang.Text = "Quản lý Nhân Viên";
+            pictureBox2.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox2.BackColor = Color.DodgerBlue;
+            pictureBox3.BorderStyle = BorderStyle.None;
+            pictureBox3.BackColor = Color.Black;
+            pictureBox4.BorderStyle = BorderStyle.None;
+            pictureBox4.BackColor = Color.Black;
+            pictureBox5.BorderStyle = BorderStyle.None;
+            pictureBox5.BackColor = Color.Black;
+            pictureBox6.BorderStyle = BorderStyle.None;
+            pictureBox6.BackColor = Color.Black;
+            pictureBox7.BorderStyle = BorderStyle.None;
+            pictureBox7.BackColor = Color.Black;
+            pictureBox9.BorderStyle = BorderStyle.None;
+            pictureBox9.BackColor = Color.Black;
+            pictureBox12.BorderStyle = BorderStyle.None;
+            pictureBox12.BackColor = Color.Black;
+            pictureBox13.BorderStyle = BorderStyle.None;
+            pictureBox13.BackColor = Color.Black;
+            pictureBox14.BorderStyle = BorderStyle.None;
+            pictureBox14.BackColor = Color.Black;
+           
             if (!Instance.PanelContainer.Controls.ContainsKey("ListNhanVien"))
             {
                 ListNhanVien lnv = new ListNhanVien();
@@ -109,6 +181,28 @@ namespace WindowsFormsApp1
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            tenchucnang.Text = "Quản Lý Bảo hiểm";
+            pictureBox3.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox3.BackColor = Color.DodgerBlue;
+            pictureBox2.BorderStyle = BorderStyle.None;
+            pictureBox2.BackColor = Color.Black;
+            pictureBox4.BorderStyle = BorderStyle.None;
+            pictureBox4.BackColor = Color.Black;
+            pictureBox5.BorderStyle = BorderStyle.None;
+            pictureBox5.BackColor = Color.Black;
+            pictureBox6.BorderStyle = BorderStyle.None;
+            pictureBox6.BackColor = Color.Black;
+            pictureBox7.BorderStyle = BorderStyle.None;
+            pictureBox7.BackColor = Color.Black;
+            pictureBox9.BorderStyle = BorderStyle.None;
+            pictureBox9.BackColor = Color.Black;
+            pictureBox12.BorderStyle = BorderStyle.None;
+            pictureBox12.BackColor = Color.Black;
+            pictureBox13.BorderStyle = BorderStyle.None;
+            pictureBox13.BackColor = Color.Black;
+            pictureBox14.BorderStyle = BorderStyle.None;
+            pictureBox14.BackColor = Color.Black;
+
             if (!Instance.PanelContainer.Controls.ContainsKey("BaoHiem"))
             {
                 BaoHiem bh = new BaoHiem();
@@ -120,6 +214,31 @@ namespace WindowsFormsApp1
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            tenchucnang.Text = "Quản lý lương";
+            pictureBox4.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox4.BackColor = Color.DodgerBlue;
+
+            pictureBox3.BorderStyle = BorderStyle.None;
+            pictureBox3.BackColor = Color.Black;
+            pictureBox2.BorderStyle = BorderStyle.None;
+            pictureBox2.BackColor = Color.Black;
+            pictureBox5.BorderStyle = BorderStyle.None;
+            pictureBox5.BackColor = Color.Black;
+            pictureBox6.BorderStyle = BorderStyle.None;
+            pictureBox6.BackColor = Color.Black;
+            pictureBox7.BorderStyle = BorderStyle.None;
+            pictureBox7.BackColor = Color.Black;
+            pictureBox9.BorderStyle = BorderStyle.None;
+            pictureBox9.BackColor = Color.Black;
+            pictureBox12.BorderStyle = BorderStyle.None;
+            pictureBox12.BackColor = Color.Black;
+            pictureBox13.BorderStyle = BorderStyle.None;
+            pictureBox13.BackColor = Color.Black;
+            pictureBox14.BorderStyle = BorderStyle.None;
+            pictureBox14.BackColor = Color.Black;
+
+
+
             if (!Instance.PanelContainer.Controls.ContainsKey("Luong"))
             {
                 Luong lg = new Luong();
@@ -131,6 +250,28 @@ namespace WindowsFormsApp1
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
+            tenchucnang.Text = "Quản lý Tuyển Dụng";
+            pictureBox12.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox12.BackColor = Color.DodgerBlue;
+            pictureBox3.BorderStyle = BorderStyle.None;
+            pictureBox3.BackColor = Color.Black;
+            pictureBox4.BorderStyle = BorderStyle.None;
+            pictureBox4.BackColor = Color.Black;
+            pictureBox5.BorderStyle = BorderStyle.None;
+            pictureBox5.BackColor = Color.Black;
+            pictureBox6.BorderStyle = BorderStyle.None;
+            pictureBox6.BackColor = Color.Black;
+            pictureBox7.BorderStyle = BorderStyle.None;
+            pictureBox7.BackColor = Color.Black;
+            pictureBox9.BorderStyle = BorderStyle.None;
+            pictureBox9.BackColor = Color.Black;
+            pictureBox2.BorderStyle = BorderStyle.None;
+            pictureBox2.BackColor = Color.Black;
+            pictureBox13.BorderStyle = BorderStyle.None;
+            pictureBox13.BackColor = Color.Black;
+            pictureBox14.BorderStyle = BorderStyle.None;
+            pictureBox14.BackColor = Color.Black;
+
             if (!Instance.PanelContainer.Controls.ContainsKey("TuyenDung"))
             {
                 TuyenDung td = new TuyenDung();
@@ -142,6 +283,28 @@ namespace WindowsFormsApp1
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
+            tenchucnang.Text = "Quản lí đào tạo";
+            pictureBox13.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox13.BackColor = Color.DodgerBlue;
+
+            pictureBox3.BorderStyle = BorderStyle.None;
+            pictureBox3.BackColor = Color.Black;
+            pictureBox4.BorderStyle = BorderStyle.None;
+            pictureBox4.BackColor = Color.Black;
+            pictureBox5.BorderStyle = BorderStyle.None;
+            pictureBox5.BackColor = Color.Black;
+            pictureBox6.BorderStyle = BorderStyle.None;
+            pictureBox6.BackColor = Color.Black;
+            pictureBox7.BorderStyle = BorderStyle.None;
+            pictureBox7.BackColor = Color.Black;
+            pictureBox9.BorderStyle = BorderStyle.None;
+            pictureBox9.BackColor = Color.Black;
+            pictureBox12.BorderStyle = BorderStyle.None;
+            pictureBox12.BackColor = Color.Black;
+            pictureBox2.BorderStyle = BorderStyle.None;
+            pictureBox2.BackColor = Color.Black;
+            pictureBox14.BorderStyle = BorderStyle.None;
+            pictureBox14.BackColor = Color.Black;
 
             if (!Instance.PanelContainer.Controls.ContainsKey("DaoTao"))
             {
@@ -154,6 +317,30 @@ namespace WindowsFormsApp1
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
+            tenchucnang.Text = "Quản lý Hợp Đồng";
+
+            pictureBox14.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox14.BackColor = Color.DodgerBlue;
+
+            pictureBox3.BorderStyle = BorderStyle.None;
+            pictureBox3.BackColor = Color.Black;
+            pictureBox4.BorderStyle = BorderStyle.None;
+            pictureBox4.BackColor = Color.Black;
+            pictureBox5.BorderStyle = BorderStyle.None;
+            pictureBox5.BackColor = Color.Black;
+            pictureBox6.BorderStyle = BorderStyle.None;
+            pictureBox6.BackColor = Color.Black;
+            pictureBox7.BorderStyle = BorderStyle.None;
+            pictureBox7.BackColor = Color.Black;
+            pictureBox9.BorderStyle = BorderStyle.None;
+            pictureBox9.BackColor = Color.Black;
+            pictureBox12.BorderStyle = BorderStyle.None;
+            pictureBox12.BackColor = Color.Black;
+            pictureBox13.BorderStyle = BorderStyle.None;
+            pictureBox13.BackColor = Color.Black;
+            pictureBox2.BorderStyle = BorderStyle.None;
+            pictureBox2.BackColor = Color.Black;
+
             if (!Instance.PanelContainer.Controls.ContainsKey("HopDong"))
             {
                 HopDong hd = new HopDong();
@@ -161,6 +348,32 @@ namespace WindowsFormsApp1
                 Instance.PanelContainer.Controls.Add(hd);
             }
             Instance.PanelContainer.Controls["HopDong"].BringToFront();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            tenchucnang.Text = "Phân quyền";
+            pictureBox9.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox9.BackColor = Color.DodgerBlue;
+            pictureBox3.BorderStyle = BorderStyle.None;
+            pictureBox3.BackColor = Color.Black;
+            pictureBox4.BorderStyle = BorderStyle.None;
+            pictureBox4.BackColor = Color.Black;
+            pictureBox5.BorderStyle = BorderStyle.None;
+            pictureBox5.BackColor = Color.Black;
+            pictureBox6.BorderStyle = BorderStyle.None;
+            pictureBox6.BackColor = Color.Black;
+            pictureBox7.BorderStyle = BorderStyle.None;
+            pictureBox7.BackColor = Color.Black;
+            pictureBox2.BorderStyle = BorderStyle.None;
+            pictureBox2.BackColor = Color.Black;
+            pictureBox12.BorderStyle = BorderStyle.None;
+            pictureBox12.BackColor = Color.Black;
+            pictureBox13.BorderStyle = BorderStyle.None;
+            pictureBox13.BackColor = Color.Black;
+            pictureBox14.BorderStyle = BorderStyle.None;
+            pictureBox14.BackColor = Color.Black;
+
         }
     }
 }
