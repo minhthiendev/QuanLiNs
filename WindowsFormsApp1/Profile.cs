@@ -98,9 +98,9 @@ namespace WindowsFormsApp1
 
             */
 
-            /*
+            
                 try
-                {*/
+                {
                     DataConnection dc = new DataConnection();
                     SqlConnection connect = dc.getConnect();
                     connect.Open();
@@ -124,13 +124,58 @@ namespace WindowsFormsApp1
                     cmd.Parameters.Add("@GioiTinh", SqlDbType.NVarChar).Value = gt.Text;
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("cập nhật thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                /*}
+                }
                 catch
                 {
-                    MessageBox.Show("Cần phải kiểm tra kiểu dữ liệu nhập vào", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }*/
+                    MessageBox.Show("Lỗi", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
 
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DataConnection dc = new DataConnection();
+                SqlConnection connect = dc.getConnect();
+                connect.Open();
+                DialogResult dr = MessageBox.Show("Bạn chắc chắn muốn xóa", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (dr == DialogResult.OK)
+                {
+                    string sql = "delete NhanVien where MaNV='" + this.mnv + "'";
+                    SqlCommand cmd = new SqlCommand(sql, connect);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Xóa thành công", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+
+                    home.Instance.LabelFunc.Text = "Quản Lí Nhân viên";
+                    if (!home.Instance.PanelContainer.Controls.ContainsKey("ListNhanVien"))
+                    {
+                        ListNhanVien anv = new ListNhanVien();
+                        anv.Dock = DockStyle.Fill;
+                        home.Instance.PanelContainer.Controls.Add(anv);
+                    }
+                    home.Instance.PanelContainer.Controls["ListNhanVien"].BringToFront();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("I'm so sorry , you can't remove this employee", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            }
+            
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            home.Instance.LabelFunc.Text = "Quản Lí Nhân Viên";
+            if (!home.Instance.PanelContainer.Controls.ContainsKey("ListNhanVien"))
+            {
+                ListNhanVien anv = new ListNhanVien();
+                anv.Dock = DockStyle.Fill;
+                home.Instance.PanelContainer.Controls.Add(anv);
+            }
+            home.Instance.PanelContainer.Controls["ListNhanVien"].BringToFront();
         }
     }
 }

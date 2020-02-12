@@ -60,29 +60,7 @@ namespace WindowsFormsApp1
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0)
-            {
-                if (dataGridView1.Rows[e.RowIndex].Cells["MaNV"].Value.ToString() !="")
-                {
-                    if (!home.Instance.PanelContainer.Controls.ContainsKey("UcNVdetail"))
-                    {
-                        string str = dataGridView1.Rows[e.RowIndex].Cells["MaNV"].Value.ToString();
-                        UcNVdetail ucnv = new UcNVdetail(str);
-                        ucnv.Dock = DockStyle.Fill;
-                        home.Instance.PanelContainer.Controls.Add(ucnv);
-                    }
-                    home.Instance.PanelContainer.Controls["UcNVdetail"].BringToFront();
-                }
-                else
-                {
-                    MessageBox.Show("Cần chọn hàng có thông tin", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-
-            }
-           
-
-
-            
+  
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -128,7 +106,7 @@ namespace WindowsFormsApp1
                 SqlConnection connect = dc.getConnect();
                 connect.Open();
 
-                string sql = "select * from NhanVien order by NgaySinh";
+                string sql = "select * from NhanVien order by NgaySinh desc";
 
 
                 SqlDataAdapter sqlad = new SqlDataAdapter(sql, connect);
@@ -143,6 +121,34 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Hãy chọn Loại sắp xếp ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+       
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string str = null;
+            
+            if (e.RowIndex >= 0)
+            {
+                if (dataGridView1.Rows[e.RowIndex].Cells["MaNV"].Value.ToString() != "")
+                {
+                     str = dataGridView1.Rows[e.RowIndex].Cells["MaNV"].Value.ToString();
+                   
+                    if (!home.Instance.PanelContainer.Controls.ContainsKey("UcNVdetail"))
+                    {
+                        UcNVdetail ucnv = new UcNVdetail(str);
+                        ucnv.Dock = DockStyle.Fill;
+                        home.Instance.PanelContainer.Controls.Add(ucnv);
+                       
+                    }
+                    home.Instance.PanelContainer.Controls["UcNVdetail"].BringToFront();
+                }
+                else
+                {
+                    MessageBox.Show("Cần chọn hàng có thông tin", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+            }
+        
         }
     }
 }

@@ -40,12 +40,13 @@ namespace WindowsFormsApp1
         string manv;
         public UcNVdetail(string str) : this()
         {
+            
             this.manv = str;
         }
+
+
+
        
-
-
-
         private void UcNVdetail_Load(object sender, EventArgs e)
         {
             _obj = this;
@@ -54,8 +55,7 @@ namespace WindowsFormsApp1
             Profile pr = new Profile(this.manv);
             pr.Dock = DockStyle.Fill;
             pContainer1.Controls.Add(pr);
-         
-
+            
         }
 
         private void hoso_Click(object sender, EventArgs e)
@@ -88,7 +88,7 @@ namespace WindowsFormsApp1
             thaisan.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("ThanNhan"))
             {
-                ThanNhan tn = new ThanNhan();
+                ThanNhan tn = new ThanNhan(this.manv);
                 tn.Dock = DockStyle.Fill;
                 Instance.PanelContainer.Controls.Add(tn);
             }
@@ -105,7 +105,7 @@ namespace WindowsFormsApp1
             thaisan.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("ThuongOfNV"))
             {
-                ThuongOfNV tonv = new ThuongOfNV();
+                ThuongOfNV tonv = new ThuongOfNV(this.manv);
                 tonv.Dock = DockStyle.Fill;
                 Instance.PanelContainer.Controls.Add(tonv);
             }
@@ -122,7 +122,7 @@ namespace WindowsFormsApp1
             thaisan.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("KLofNV"))
             {
-                KLofNV tonv = new KLofNV();
+                KLofNV tonv = new KLofNV(this.manv);
                 tonv.Dock = DockStyle.Fill;
                 Instance.PanelContainer.Controls.Add(tonv);
             }
@@ -139,7 +139,7 @@ namespace WindowsFormsApp1
             thaisan.BackColor = Color.DodgerBlue;
             if (!Instance.PanelContainer.Controls.ContainsKey("ThaiSan"))
             {
-                ThaiSan tonv = new ThaiSan();
+                ThaiSan tonv = new ThaiSan(this.manv);
                 tonv.Dock = DockStyle.Fill;
                 Instance.PanelContainer.Controls.Add(tonv);
             }
@@ -156,7 +156,7 @@ namespace WindowsFormsApp1
             thaisan.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("NghiPhep"))
             {
-                NghiPhep tonv = new NghiPhep();
+                NghiPhep tonv = new NghiPhep(this.manv);
                 tonv.Dock = DockStyle.Fill;
                 Instance.PanelContainer.Controls.Add(tonv);
             }

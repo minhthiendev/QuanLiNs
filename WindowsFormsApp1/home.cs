@@ -86,7 +86,7 @@ namespace WindowsFormsApp1
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-             
+            tenchucnang.Text = "Home";
             if (!Instance.PanelContainer.Controls.ContainsKey("UChome"))
             {
                 UChome uch = new UChome();
@@ -168,6 +168,9 @@ namespace WindowsFormsApp1
                 Instance.PanelContainer.Controls.Add(lnv);
             }
             Instance.PanelContainer.Controls["ListNhanVien"].BringToFront();
+
+            
+
 
 
 

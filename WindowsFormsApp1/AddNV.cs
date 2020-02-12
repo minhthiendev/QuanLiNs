@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace WindowsFormsApp1
 {
@@ -21,24 +22,26 @@ namespace WindowsFormsApp1
         {
             if (string.IsNullOrEmpty(str))
             {
-                MessageBox.Show("Cần phải nhập "+name, "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Chưa Nhập: "+name, "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return false;
             }
             return true;
         }
-       
+
+
+
         public bool checkData()
         {
-            if (!checkNull(mnv.Text," MaNV")){mnv.Focus();return false;}
-            if (!checkNull(tnv.Text, " TenNV")){tnv.Focus();return false;}
-            if (!checkNull(ns.Text, " Ngày Sinh")){ns.Focus();return false;}
-            if (!checkNull(noisinh.Text, " Nơi Sinh")){ noisinh.Focus();return false;}
+            if (!checkNull(mnv.Text, " MaNV")) { mnv.Focus(); return false; }
+            if (!checkNull(tnv.Text, " TenNV")) { tnv.Focus(); return false; }
+            if (!checkNull(ns.Text, " Ngày Sinh")) { ns.Focus(); return false; }
+            if (!checkNull(noisinh.Text, " Nơi Sinh")) { noisinh.Focus(); return false; }
             if (!checkNull(tamt.Text, " Tạm trú")) { tamt.Focus(); return false; }
             if (!checkNull(qq.Text, " Quê Quán")) { qq.Focus(); return false; }
             if (!checkNull(qt.Text, " Quốc Tịch")) { qt.Focus(); return false; }
             if (!checkNull(dto.Text, " Dân tộc")) { dto.Focus(); return false; }
-            if (!checkNull(cmnd.Text, " CMND")){ cmnd.Focus();return false;}
-            if (!checkNull(ngc.Text, " Ngày Cấp Cmnd")){ ngc.Focus();return false;}
+            if (!checkNull(cmnd.Text, " CMND")) { cmnd.Focus(); return false; }
+            if (!checkNull(ngc.Text, " Ngày Cấp Cmnd")) { ngc.Focus(); return false; }
             if (!checkNull(noic.Text, " Nơi cấp")) { noic.Focus(); return false; }
             if (!checkNull(email.Text, " Email")) { email.Focus(); return false; }
             if (!checkNull(sdt.Text, " SDT")) { sdt.Focus(); return false; }
@@ -46,14 +49,15 @@ namespace WindowsFormsApp1
             if (!checkNull(cv.Text, " Chúc vụ")) { cv.Focus(); return false; }
             if (!checkNull(Gt.Text, " Giới Tính")) { Gt.Focus(); return false; }
 
+
             DataConnection dc = new DataConnection();
-            
+
             SqlConnection connect = dc.getConnect();
             connect.Open();
-            string sql = "select MaNV from NhanVien Where MaNV='"+mnv.Text+"'";
+            string sql = "select MaNV from NhanVien Where MaNV='" + mnv.Text + "'";
             string sql1 = "select MaPhong from PhongBan Where MaPhong='" + phg.Text + "'";
             string sql2 = "select MaChucVu from ChucVu Where MaChucVu='" + cv.Text + "'";
-            SqlDataAdapter da = new SqlDataAdapter(sql,connect);
+            SqlDataAdapter da = new SqlDataAdapter(sql, connect);
             DataTable dt = new DataTable();
             da.Fill(dt);
             if (dt.Rows.Count > 0)
@@ -65,7 +69,7 @@ namespace WindowsFormsApp1
             SqlDataAdapter da1 = new SqlDataAdapter(sql1, connect);
             DataTable dt1 = new DataTable();
             da1.Fill(dt1);
-            if (dt1.Rows.Count ==0)
+            if (dt1.Rows.Count == 0)
             {
                 MessageBox.Show("MaPhong chưa tồn tại ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return false;
@@ -79,10 +83,40 @@ namespace WindowsFormsApp1
                 MessageBox.Show("MaChucVu chưa tồn tại ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return false;
             }
+            if (Regex.IsMatch(tnv.Text, "[0-9]"))
+            {
+                MessageBox.Show(" Tên Nhân viên không hợp lệ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                tnv.Focus();
+                return false;
+            }
+
+
+            if (Regex.IsMatch(cmnd.Text, "[A-Za-z]") || cmnd.Text.Length != 9)
+            {
+                MessageBox.Show("CMND không hợp lệ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                cmnd.Focus();
+                return false;
+            }
+
+
+            if (Regex.IsMatch(sdt.Text, "[A-Za-z]") || sdt.Text.Length != 10)
+            {
+                MessageBox.Show("SDT không hợp lệ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                sdt.Focus();
+                return false;
+            }
+            if (Gt.Text.ToUpper() == "NAM" || Gt.Text.ToUpper() == "NU")
+            {
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("Gioi tinh phải là Nam / nu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return false;
+            }
+
             return true;
-
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (checkData())

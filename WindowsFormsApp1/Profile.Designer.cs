@@ -340,6 +340,7 @@
             this.button1.TabIndex = 29;
             this.button1.Text = "Xóa";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -363,6 +364,7 @@
             this.button3.TabIndex = 31;
             this.button3.Text = "Cacel";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // phg
             // 
