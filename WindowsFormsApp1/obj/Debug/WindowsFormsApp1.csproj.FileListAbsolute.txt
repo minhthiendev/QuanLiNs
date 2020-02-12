@@ -20,7 +20,6 @@ D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HopDo
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.BangKhenThuong.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.BangKiluat.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Profile.resources
-D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.CTHopDong.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddNV.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DSKLNV.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThanNhan.resources
@@ -28,3 +27,4 @@ D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Thuon
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.KLofNV.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThaiSan.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NghiPhep.resources
+D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PhanQuyen.resources

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
@@ -25,6 +26,23 @@ namespace WindowsFormsApp1
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void BaoHiem_Load(object sender, EventArgs e)
+        {
+            DataConnection dc = new DataConnection();
+            SqlConnection connect = dc.getConnect();
+            connect.Open();
+
+            string sql = "select * from BaoHiemNhanVien";
+
+
+            SqlDataAdapter sqlad = new SqlDataAdapter(sql, connect);
+
+            DataTable dt = new DataTable();
+            sqlad.Fill(dt);
+            dataGridView1.DataSource = dt;
+            connect.Close();
         }
     }
 }

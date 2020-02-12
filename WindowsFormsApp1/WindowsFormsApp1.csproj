@@ -76,12 +76,6 @@
     <Compile Include="BaoHiem.Designer.cs">
       <DependentUpon>BaoHiem.cs</DependentUpon>
     </Compile>
-    <Compile Include="CTHopDong.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CTHopDong.Designer.cs">
-      <DependentUpon>CTHopDong.cs</DependentUpon>
-    </Compile>
     <Compile Include="DaoTao.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -136,6 +130,12 @@
     </Compile>
     <Compile Include="NghiPhep.Designer.cs">
       <DependentUpon>NghiPhep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhanQuyen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PhanQuyen.Designer.cs">
+      <DependentUpon>PhanQuyen.cs</DependentUpon>
     </Compile>
     <Compile Include="Profile.cs">
       <SubType>UserControl</SubType>
@@ -196,9 +196,6 @@
     <EmbeddedResource Include="BaoHiem.resx">
       <DependentUpon>BaoHiem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CTHopDong.resx">
-      <DependentUpon>CTHopDong.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DaoTao.resx">
       <DependentUpon>DaoTao.cs</DependentUpon>
     </EmbeddedResource>
@@ -225,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NghiPhep.resx">
       <DependentUpon>NghiPhep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhanQuyen.resx">
+      <DependentUpon>PhanQuyen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>

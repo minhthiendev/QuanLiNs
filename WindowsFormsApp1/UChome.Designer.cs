@@ -36,9 +36,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(390, 154);
+            this.pictureBox1.Location = new System.Drawing.Point(315, 146);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(415, 285);
+            this.pictureBox1.Size = new System.Drawing.Size(670, 414);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -47,7 +47,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(386, 488);
+            this.label1.Location = new System.Drawing.Point(458, 609);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(385, 20);
             this.label1.TabIndex = 1;
@@ -60,7 +60,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "UChome";
-            this.Size = new System.Drawing.Size(1152, 770);
+            this.Size = new System.Drawing.Size(1275, 770);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

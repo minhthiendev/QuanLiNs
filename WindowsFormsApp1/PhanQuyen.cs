@@ -11,30 +11,20 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
-    public partial class DaoTao : UserControl
+    public partial class PhanQuyen : UserControl
     {
-        public DaoTao()
+        public PhanQuyen()
         {
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void DaoTao_Load(object sender, EventArgs e)
+        private void PhanQuyen_Load(object sender, EventArgs e)
         {
             DataConnection dc = new DataConnection();
             SqlConnection connect = dc.getConnect();
             connect.Open();
 
-            string sql = "select * from BangKeHoachDaoTao";
+            string sql = "select * from UserAuth";
 
 
             SqlDataAdapter sqlad = new SqlDataAdapter(sql, connect);

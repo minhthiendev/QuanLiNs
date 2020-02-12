@@ -47,7 +47,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(790, 41);
+            this.panel1.Size = new System.Drawing.Size(1263, 41);
             this.panel1.TabIndex = 0;
             // 
             // menuStrip1
@@ -63,7 +63,7 @@
             this.kiluat});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(790, 41);
+            this.menuStrip1.Size = new System.Drawing.Size(1263, 41);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -114,7 +114,7 @@
             this.pContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pContainer1.Location = new System.Drawing.Point(0, 41);
             this.pContainer1.Name = "pContainer1";
-            this.pContainer1.Size = new System.Drawing.Size(790, 817);
+            this.pContainer1.Size = new System.Drawing.Size(1263, 581);
             this.pContainer1.TabIndex = 1;
             // 
             // UcNVdetail
@@ -124,7 +124,7 @@
             this.Controls.Add(this.pContainer1);
             this.Controls.Add(this.panel1);
             this.Name = "UcNVdetail";
-            this.Size = new System.Drawing.Size(790, 858);
+            this.Size = new System.Drawing.Size(1263, 622);
             this.Load += new System.EventHandler(this.UcNVdetail_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -377,6 +377,14 @@ namespace WindowsFormsApp1
             pictureBox14.BorderStyle = BorderStyle.None;
             pictureBox14.BackColor = Color.Black;
 
+            if (!Instance.PanelContainer.Controls.ContainsKey("PhanQuyen"))
+            {
+                PhanQuyen hd = new PhanQuyen();
+                hd.Dock = DockStyle.Fill;
+                Instance.PanelContainer.Controls.Add(hd);
+            }
+            Instance.PanelContainer.Controls["PhanQuyen"].BringToFront();
+
         }
     }
 }

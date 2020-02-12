@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
@@ -31,6 +32,23 @@ namespace WindowsFormsApp1
                 home.Instance.PanelContainer.Controls.Add(bl);
             }
             home.Instance.PanelContainer.Controls["BangLuong"].BringToFront();
+        }
+
+        private void Luong_Load(object sender, EventArgs e)
+        {
+            DataConnection dc = new DataConnection();
+            SqlConnection connect = dc.getConnect();
+            connect.Open();
+
+            string sql = "select * from Luong";
+
+
+            SqlDataAdapter sqlad = new SqlDataAdapter(sql, connect);
+
+            DataTable dt = new DataTable();
+            sqlad.Fill(dt);
+            dataGridView1.DataSource = dt;
+            connect.Close();
         }
     }
 }
