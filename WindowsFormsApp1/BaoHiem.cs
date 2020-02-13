@@ -44,5 +44,16 @@ namespace WindowsFormsApp1
             dataGridView1.DataSource = dt;
             connect.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (!home.Instance.PanelContainer.Controls.ContainsKey("ListBaoHiem"))
+            {
+                ListBaoHiem dskl = new ListBaoHiem();
+                dskl.Dock = DockStyle.Fill;
+                home.Instance.PanelContainer.Controls.Add(dskl);
+            }
+            home.Instance.PanelContainer.Controls["ListBaoHiem"].BringToFront();
+        }
     }
 }

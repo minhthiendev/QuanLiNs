@@ -37,11 +37,11 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(189, 101);
+            this.dataGridView1.Location = new System.Drawing.Point(152, 152);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(855, 508);
+            this.dataGridView1.Size = new System.Drawing.Size(945, 508);
             this.dataGridView1.TabIndex = 0;
             // 
             // NghiPhep
@@ -50,7 +50,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.dataGridView1);
             this.Name = "NghiPhep";
-            this.Size = new System.Drawing.Size(1234, 663);
+            this.Size = new System.Drawing.Size(1261, 663);
             this.Load += new System.EventHandler(this.NghiPhep_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -114,7 +114,7 @@
             this.pContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pContainer1.Location = new System.Drawing.Point(0, 41);
             this.pContainer1.Name = "pContainer1";
-            this.pContainer1.Size = new System.Drawing.Size(1263, 581);
+            this.pContainer1.Size = new System.Drawing.Size(1263, 680);
             this.pContainer1.TabIndex = 1;
             // 
             // UcNVdetail
@@ -124,7 +124,7 @@
             this.Controls.Add(this.pContainer1);
             this.Controls.Add(this.panel1);
             this.Name = "UcNVdetail";
-            this.Size = new System.Drawing.Size(1263, 622);
+            this.Size = new System.Drawing.Size(1263, 721);
             this.Load += new System.EventHandler(this.UcNVdetail_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

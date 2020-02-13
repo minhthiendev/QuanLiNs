@@ -28,3 +28,6 @@ D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.KLofN
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThaiSan.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NghiPhep.resources
 D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PhanQuyen.resources
+D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ListBaoHiem.resources
+D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.KhenThuongNhanVien.resources
+D:\EMS\EmloyeeManagementSystem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.BaoDaoTaoNhanVien.resources

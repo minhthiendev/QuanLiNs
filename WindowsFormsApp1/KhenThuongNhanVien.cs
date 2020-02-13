@@ -11,28 +11,19 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
-    public partial class KLofNV : UserControl
+    public partial class KhenThuongNhanVien : UserControl
     {
-        public KLofNV()
+        public KhenThuongNhanVien()
         {
             InitializeComponent();
         }
-        string mnv;
-        public KLofNV(string mnv) : this()
-        {
-            this.mnv = mnv;
-        }
-        private void button3_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void KLofNV_Load(object sender, EventArgs e)
+        private void KhenThuongNhanVien_Load(object sender, EventArgs e)
         {
             DataConnection dc = new DataConnection();
             SqlConnection connect = dc.getConnect();
             connect.Open();
-            string sql = "select MaKiLuat,NgayKiLuat,GhiChu from BangKiLuatChiTiet  Where MaNV = '" + this.mnv + "'";
+            string sql = "select * from BangKhenThuongChiTiet";
             SqlDataAdapter sqlad = new SqlDataAdapter(sql, connect);
 
             DataTable dt = new DataTable();

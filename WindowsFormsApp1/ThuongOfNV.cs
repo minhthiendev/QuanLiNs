@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
             DataConnection dc = new DataConnection();
             SqlConnection connect = dc.getConnect();
             connect.Open();
-            string sql = "select MaKhenThuong, NoiDung, NgayKhenThuong, GhiChu from BangKhenThuongChiTiet Where MaNV = '" + this.mnv + "'";
+            string sql = "select MaKhenThuong, NgayKhenThuong, GhiChu from BangKhenThuongChiTiet Where MaNV = '" + this.mnv + "'";
             SqlDataAdapter sqlad = new SqlDataAdapter(sql, connect);
 
             DataTable dt = new DataTable();

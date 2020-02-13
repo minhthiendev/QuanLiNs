@@ -70,6 +70,12 @@
     <Compile Include="BangLuong.Designer.cs">
       <DependentUpon>BangLuong.cs</DependentUpon>
     </Compile>
+    <Compile Include="BaoDaoTaoNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaoDaoTaoNhanVien.Designer.cs">
+      <DependentUpon>BaoDaoTaoNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="BaoHiem.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -101,11 +107,23 @@
     <Compile Include="HopDong.Designer.cs">
       <DependentUpon>HopDong.cs</DependentUpon>
     </Compile>
+    <Compile Include="KhenThuongNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KhenThuongNhanVien.Designer.cs">
+      <DependentUpon>KhenThuongNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="KLofNV.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="KLofNV.Designer.cs">
       <DependentUpon>KLofNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListBaoHiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListBaoHiem.Designer.cs">
+      <DependentUpon>ListBaoHiem.cs</DependentUpon>
     </Compile>
     <Compile Include="ListNhanVien.cs">
       <SubType>UserControl</SubType>
@@ -193,6 +211,9 @@
     <EmbeddedResource Include="BangLuong.resx">
       <DependentUpon>BangLuong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BaoDaoTaoNhanVien.resx">
+      <DependentUpon>BaoDaoTaoNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BaoHiem.resx">
       <DependentUpon>BaoHiem.cs</DependentUpon>
     </EmbeddedResource>
@@ -208,8 +229,14 @@
     <EmbeddedResource Include="HopDong.resx">
       <DependentUpon>HopDong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KhenThuongNhanVien.resx">
+      <DependentUpon>KhenThuongNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="KLofNV.resx">
       <DependentUpon>KLofNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBaoHiem.resx">
+      <DependentUpon>ListBaoHiem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListNhanVien.resx">
       <DependentUpon>ListNhanVien.cs</DependentUpon>
