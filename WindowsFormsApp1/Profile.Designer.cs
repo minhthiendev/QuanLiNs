@@ -72,7 +72,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(229, 294);
+            this.label1.Location = new System.Drawing.Point(99, 348);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 20);
             this.label1.TabIndex = 0;
@@ -80,8 +80,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(222, 115);
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(103, 152);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(151, 172);
             this.pictureBox1.TabIndex = 1;
@@ -90,7 +90,7 @@
             // ten
             // 
             this.ten.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ten.Location = new System.Drawing.Point(225, 317);
+            this.ten.Location = new System.Drawing.Point(95, 371);
             this.ten.Name = "ten";
             this.ten.Size = new System.Drawing.Size(321, 28);
             this.ten.TabIndex = 2;
@@ -98,7 +98,7 @@
             // manv
             // 
             this.manv.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.manv.Location = new System.Drawing.Point(225, 390);
+            this.manv.Location = new System.Drawing.Point(95, 444);
             this.manv.Name = "manv";
             this.manv.Size = new System.Drawing.Size(321, 28);
             this.manv.TabIndex = 4;
@@ -107,7 +107,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(221, 371);
+            this.label2.Location = new System.Drawing.Point(91, 425);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 20);
             this.label2.TabIndex = 3;
@@ -116,7 +116,7 @@
             // gt
             // 
             this.gt.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gt.Location = new System.Drawing.Point(225, 462);
+            this.gt.Location = new System.Drawing.Point(95, 516);
             this.gt.Name = "gt";
             this.gt.Size = new System.Drawing.Size(321, 28);
             this.gt.TabIndex = 6;
@@ -125,7 +125,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(221, 513);
+            this.label3.Location = new System.Drawing.Point(91, 567);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 20);
             this.label3.TabIndex = 5;
@@ -134,7 +134,7 @@
             // ngs
             // 
             this.ngs.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ngs.Location = new System.Drawing.Point(225, 536);
+            this.ngs.Location = new System.Drawing.Point(95, 590);
             this.ngs.Name = "ngs";
             this.ngs.Size = new System.Drawing.Size(321, 28);
             this.ngs.TabIndex = 8;
@@ -143,7 +143,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(221, 439);
+            this.label4.Location = new System.Drawing.Point(91, 493);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 20);
             this.label4.TabIndex = 7;
@@ -152,7 +152,7 @@
             // ns
             // 
             this.ns.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ns.Location = new System.Drawing.Point(225, 611);
+            this.ns.Location = new System.Drawing.Point(473, 219);
             this.ns.Name = "ns";
             this.ns.Size = new System.Drawing.Size(321, 28);
             this.ns.TabIndex = 10;
@@ -161,7 +161,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(221, 588);
+            this.label5.Location = new System.Drawing.Point(469, 196);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 20);
             this.label5.TabIndex = 9;
@@ -171,7 +171,7 @@
             // tt
             // 
             this.tt.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tt.Location = new System.Drawing.Point(225, 683);
+            this.tt.Location = new System.Drawing.Point(468, 296);
             this.tt.Name = "tt";
             this.tt.Size = new System.Drawing.Size(321, 28);
             this.tt.TabIndex = 12;
@@ -180,7 +180,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(229, 660);
+            this.label6.Location = new System.Drawing.Point(469, 271);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 20);
             this.label6.TabIndex = 11;
@@ -189,7 +189,7 @@
             // qt
             // 
             this.qt.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.qt.Location = new System.Drawing.Point(709, 196);
+            this.qt.Location = new System.Drawing.Point(465, 444);
             this.qt.Name = "qt";
             this.qt.Size = new System.Drawing.Size(317, 28);
             this.qt.TabIndex = 14;
@@ -198,7 +198,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(705, 173);
+            this.label7.Location = new System.Drawing.Point(461, 421);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 20);
             this.label7.TabIndex = 13;
@@ -207,7 +207,7 @@
             // dto
             // 
             this.dto.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dto.Location = new System.Drawing.Point(709, 259);
+            this.dto.Location = new System.Drawing.Point(469, 516);
             this.dto.Name = "dto";
             this.dto.Size = new System.Drawing.Size(317, 28);
             this.dto.TabIndex = 16;
@@ -216,7 +216,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(705, 236);
+            this.label8.Location = new System.Drawing.Point(465, 493);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(74, 20);
             this.label8.TabIndex = 15;
@@ -225,7 +225,7 @@
             // cmnd
             // 
             this.cmnd.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmnd.Location = new System.Drawing.Point(709, 317);
+            this.cmnd.Location = new System.Drawing.Point(469, 591);
             this.cmnd.Name = "cmnd";
             this.cmnd.Size = new System.Drawing.Size(317, 28);
             this.cmnd.TabIndex = 18;
@@ -234,7 +234,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(705, 294);
+            this.label9.Location = new System.Drawing.Point(465, 568);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(62, 20);
             this.label9.TabIndex = 17;
@@ -243,7 +243,7 @@
             // ngc
             // 
             this.ngc.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ngc.Location = new System.Drawing.Point(709, 394);
+            this.ngc.Location = new System.Drawing.Point(827, 219);
             this.ngc.Name = "ngc";
             this.ngc.Size = new System.Drawing.Size(317, 28);
             this.ngc.TabIndex = 20;
@@ -252,7 +252,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(705, 371);
+            this.label10.Location = new System.Drawing.Point(823, 196);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(86, 20);
             this.label10.TabIndex = 19;
@@ -261,7 +261,7 @@
             // nc
             // 
             this.nc.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nc.Location = new System.Drawing.Point(709, 465);
+            this.nc.Location = new System.Drawing.Point(827, 296);
             this.nc.Name = "nc";
             this.nc.Size = new System.Drawing.Size(317, 28);
             this.nc.TabIndex = 22;
@@ -270,7 +270,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(705, 439);
+            this.label11.Location = new System.Drawing.Point(823, 270);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(73, 20);
             this.label11.TabIndex = 21;
@@ -279,7 +279,7 @@
             // email
             // 
             this.email.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.email.Location = new System.Drawing.Point(709, 536);
+            this.email.Location = new System.Drawing.Point(827, 371);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(317, 28);
             this.email.TabIndex = 24;
@@ -288,7 +288,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(705, 513);
+            this.label12.Location = new System.Drawing.Point(823, 348);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(55, 20);
             this.label12.TabIndex = 23;
@@ -297,7 +297,7 @@
             // qq
             // 
             this.qq.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.qq.Location = new System.Drawing.Point(225, 740);
+            this.qq.Location = new System.Drawing.Point(465, 371);
             this.qq.Name = "qq";
             this.qq.Size = new System.Drawing.Size(321, 28);
             this.qq.TabIndex = 26;
@@ -306,7 +306,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(221, 717);
+            this.label13.Location = new System.Drawing.Point(461, 348);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(86, 20);
             this.label13.TabIndex = 25;
@@ -315,7 +315,7 @@
             // sdt
             // 
             this.sdt.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sdt.Location = new System.Drawing.Point(709, 601);
+            this.sdt.Location = new System.Drawing.Point(827, 444);
             this.sdt.Name = "sdt";
             this.sdt.Size = new System.Drawing.Size(317, 28);
             this.sdt.TabIndex = 28;
@@ -324,7 +324,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(705, 578);
+            this.label14.Location = new System.Drawing.Point(823, 421);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(44, 20);
             this.label14.TabIndex = 27;
@@ -334,7 +334,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(425, 200);
+            this.button1.Location = new System.Drawing.Point(295, 229);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 37);
             this.button1.TabIndex = 29;
@@ -346,7 +346,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(425, 136);
+            this.button2.Location = new System.Drawing.Point(295, 165);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 37);
             this.button2.TabIndex = 30;
@@ -358,7 +358,7 @@
             // 
             this.button3.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(425, 259);
+            this.button3.Location = new System.Drawing.Point(295, 288);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(121, 37);
             this.button3.TabIndex = 31;
@@ -369,7 +369,7 @@
             // phg
             // 
             this.phg.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phg.Location = new System.Drawing.Point(709, 670);
+            this.phg.Location = new System.Drawing.Point(827, 516);
             this.phg.Name = "phg";
             this.phg.Size = new System.Drawing.Size(317, 28);
             this.phg.TabIndex = 33;
@@ -378,7 +378,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(705, 647);
+            this.label15.Location = new System.Drawing.Point(823, 493);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(90, 20);
             this.label15.TabIndex = 32;
@@ -387,7 +387,7 @@
             // cv
             // 
             this.cv.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cv.Location = new System.Drawing.Point(709, 740);
+            this.cv.Location = new System.Drawing.Point(828, 593);
             this.cv.Name = "cv";
             this.cv.Size = new System.Drawing.Size(317, 28);
             this.cv.TabIndex = 35;
@@ -396,7 +396,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(715, 714);
+            this.label16.Location = new System.Drawing.Point(834, 567);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(75, 20);
             this.label16.TabIndex = 34;
@@ -405,11 +405,12 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(270, 250);
+            this.label17.Location = new System.Drawing.Point(155, 230);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(33, 17);
             this.label17.TabIndex = 36;
             this.label17.Text = "3X4";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // Profile
             // 

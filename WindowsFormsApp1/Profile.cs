@@ -177,5 +177,10 @@ namespace WindowsFormsApp1
             }
             home.Instance.PanelContainer.Controls["ListNhanVien"].BringToFront();
         }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

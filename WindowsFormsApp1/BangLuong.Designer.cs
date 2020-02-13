@@ -84,6 +84,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "BangLuong";
             this.Size = new System.Drawing.Size(1253, 815);
+            this.Load += new System.EventHandler(this.BangLuong_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
