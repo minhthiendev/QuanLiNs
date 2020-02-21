@@ -63,6 +63,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _800px_COLOURBOX22100371 {
+            get {
+                object obj = ResourceManager.GetObject("800px_COLOURBOX22100371", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap adduser {
             get {
                 object obj = ResourceManager.GetObject("adduser", resourceCulture);
@@ -146,6 +156,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap help1 {
             get {
                 object obj = ResourceManager.GetObject("help1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap job {
+            get {
+                object obj = ResourceManager.GetObject("job", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +276,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap td {
             get {
                 object obj = ResourceManager.GetObject("td", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap the_rooms_icon_hotel_symbol_flat_vector_6257944 {
+            get {
+                object obj = ResourceManager.GetObject("the-rooms-icon-hotel-symbol-flat-vector-6257944", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

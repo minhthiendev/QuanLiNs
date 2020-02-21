@@ -150,7 +150,7 @@ namespace WindowsFormsApp1
                 }
                 catch
                 {
-                    MessageBox.Show("Cần phải kiểm tra kiểu dữ liệu nhập vào", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Cần phải kiểm tra 2 ô ngày sinh và ngày cấp cmnd", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                
             }

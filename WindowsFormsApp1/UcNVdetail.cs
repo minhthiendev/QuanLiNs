@@ -66,7 +66,7 @@ namespace WindowsFormsApp1
             kiluat.BackColor = Color.Beige;
             thuong.BackColor = Color.Beige;
             thaisan.BackColor = Color.Beige;
-            
+            qtct.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("Profile"))
             {
                 Profile pr = new Profile();
@@ -86,6 +86,7 @@ namespace WindowsFormsApp1
             kiluat.BackColor = Color.Beige;
             thuong.BackColor = Color.Beige;
             thaisan.BackColor = Color.Beige;
+            qtct.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("ThanNhan"))
             {
                 ThanNhan tn = new ThanNhan(this.manv);
@@ -103,6 +104,7 @@ namespace WindowsFormsApp1
             kiluat.BackColor = Color.Beige;
             thuong.BackColor = Color.DodgerBlue;
             thaisan.BackColor = Color.Beige;
+            qtct.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("ThuongOfNV"))
             {
                 ThuongOfNV tonv = new ThuongOfNV(this.manv);
@@ -120,6 +122,7 @@ namespace WindowsFormsApp1
             kiluat.BackColor = Color.DodgerBlue;
             thuong.BackColor = Color.Beige;
             thaisan.BackColor = Color.Beige;
+            qtct.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("KLofNV"))
             {
                 KLofNV tonv = new KLofNV(this.manv);
@@ -137,6 +140,7 @@ namespace WindowsFormsApp1
             kiluat.BackColor = Color.Beige;
             thuong.BackColor = Color.Beige;
             thaisan.BackColor = Color.DodgerBlue;
+            qtct.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("ThaiSan"))
             {
                 ThaiSan tonv = new ThaiSan(this.manv);
@@ -154,6 +158,7 @@ namespace WindowsFormsApp1
             kiluat.BackColor = Color.Beige;
             thuong.BackColor = Color.Beige;
             thaisan.BackColor = Color.Beige;
+            qtct.BackColor = Color.Beige;
             if (!Instance.PanelContainer.Controls.ContainsKey("NghiPhep"))
             {
                 NghiPhep tonv = new NghiPhep(this.manv);
@@ -161,6 +166,24 @@ namespace WindowsFormsApp1
                 Instance.PanelContainer.Controls.Add(tonv);
             }
             Instance.PanelContainer.Controls["NghiPhep"].BringToFront();
+        }
+
+        private void qTCôngTácToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            hoso.BackColor = Color.Beige;
+            nhanthan.BackColor = Color.Beige;
+            nghiphep.BackColor = Color.Beige;
+            qtct.BackColor = Color.DodgerBlue;
+            thuong.BackColor = Color.Beige;
+            thaisan.BackColor = Color.Beige;
+            kiluat.BackColor = Color.Beige;
+            if (!Instance.PanelContainer.Controls.ContainsKey("QuaTrinhCongTac"))
+            {
+                QuaTrinhCongTac tonv = new QuaTrinhCongTac(this.manv);
+                tonv.Dock = DockStyle.Fill;
+                Instance.PanelContainer.Controls.Add(tonv);
+            }
+            Instance.PanelContainer.Controls["QuaTrinhCongTac"].BringToFront();
         }
     }
 }

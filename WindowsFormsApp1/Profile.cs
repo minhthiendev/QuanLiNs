@@ -59,8 +59,8 @@ namespace WindowsFormsApp1
                 qt.Text = dt.Rows[0]["QuocTich"].ToString();
                 tt.Text = dt.Rows[0]["TamTru"].ToString();
                 sdt.Text = dt.Rows[0]["SDT"].ToString();
-                phg.Text = dt.Rows[0]["MaPhong"].ToString();
-                cv.Text = dt.Rows[0]["ChucVu"].ToString();
+               /* phg.Text = dt.Rows[0]["MaPhong"].ToString();
+                cv.Text = dt.Rows[0]["ChucVu"].ToString();*/
                 dto.Text = dt.Rows[0]["DanToc"].ToString();
             }
             catch {
@@ -119,8 +119,8 @@ namespace WindowsFormsApp1
                     cmd.Parameters.Add("@NoiCap", SqlDbType.NVarChar).Value = nc.Text;
                     cmd.Parameters.Add("@Email", SqlDbType.VarChar).Value = email.Text;
                     cmd.Parameters.Add("@Sdt", SqlDbType.VarChar).Value = sdt.Text;
-                    cmd.Parameters.Add("@MaPhong", SqlDbType.VarChar).Value = phg.Text;
-                    cmd.Parameters.Add("@ChucVu", SqlDbType.VarChar).Value = cv.Text;
+                   /* cmd.Parameters.Add("@MaPhong", SqlDbType.VarChar).Value = phg.Text;
+                    cmd.Parameters.Add("@ChucVu", SqlDbType.VarChar).Value = cv.Text;*/
                     cmd.Parameters.Add("@GioiTinh", SqlDbType.NVarChar).Value = gt.Text;
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("cập nhật thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

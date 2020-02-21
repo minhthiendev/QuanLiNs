@@ -33,8 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -82,6 +95,12 @@
     <Compile Include="BaoHiem.Designer.cs">
       <DependentUpon>BaoHiem.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChucVu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChucVu.Designer.cs">
+      <DependentUpon>ChucVu.cs</DependentUpon>
+    </Compile>
     <Compile Include="DaoTao.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -94,6 +113,12 @@
     </Compile>
     <Compile Include="DSKLNV.Designer.cs">
       <DependentUpon>DSKLNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HDSD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HDSD.Designer.cs">
+      <DependentUpon>HDSD.cs</DependentUpon>
     </Compile>
     <Compile Include="home.cs">
       <SubType>Form</SubType>
@@ -155,6 +180,12 @@
     <Compile Include="PhanQuyen.Designer.cs">
       <DependentUpon>PhanQuyen.cs</DependentUpon>
     </Compile>
+    <Compile Include="PhongBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PhongBan.Designer.cs">
+      <DependentUpon>PhongBan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Profile.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -163,6 +194,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuaTrinhCongTac.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuaTrinhCongTac.Designer.cs">
+      <DependentUpon>QuaTrinhCongTac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="ThaiSan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -199,6 +243,12 @@
     <Compile Include="UcNVdetail.Designer.cs">
       <DependentUpon>UcNVdetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInfo.Designer.cs">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddNV.resx">
       <DependentUpon>AddNV.cs</DependentUpon>
     </EmbeddedResource>
@@ -217,11 +267,17 @@
     <EmbeddedResource Include="BaoHiem.resx">
       <DependentUpon>BaoHiem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChucVu.resx">
+      <DependentUpon>ChucVu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DaoTao.resx">
       <DependentUpon>DaoTao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DSKLNV.resx">
       <DependentUpon>DSKLNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HDSD.resx">
+      <DependentUpon>HDSD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="home.resx">
       <DependentUpon>home.cs</DependentUpon>
@@ -253,6 +309,9 @@
     <EmbeddedResource Include="PhanQuyen.resx">
       <DependentUpon>PhanQuyen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PhongBan.resx">
+      <DependentUpon>PhongBan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
@@ -260,6 +319,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuaTrinhCongTac.resx">
+      <DependentUpon>QuaTrinhCongTac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThaiSan.resx">
       <DependentUpon>ThaiSan.cs</DependentUpon>
@@ -279,9 +344,13 @@
     <EmbeddedResource Include="UcNVdetail.resx">
       <DependentUpon>UcNVdetail.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserInfo.resx">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="..\.editorconfig">
       <Link>.editorconfig</Link>
     </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -362,6 +431,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\search2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the-rooms-icon-hotel-symbol-flat-vector-6257944.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800px_COLOURBOX22100371.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\job.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

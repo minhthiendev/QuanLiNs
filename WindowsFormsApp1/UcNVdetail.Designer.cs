@@ -36,6 +36,7 @@
             this.thaisan = new System.Windows.Forms.ToolStripMenuItem();
             this.thuong = new System.Windows.Forms.ToolStripMenuItem();
             this.kiluat = new System.Windows.Forms.ToolStripMenuItem();
+            this.qtct = new System.Windows.Forms.ToolStripMenuItem();
             this.pContainer1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -60,7 +61,8 @@
             this.nghiphep,
             this.thaisan,
             this.thuong,
-            this.kiluat});
+            this.kiluat,
+            this.qtct});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1263, 41);
@@ -109,6 +111,13 @@
             this.kiluat.Text = "Kĩ luật";
             this.kiluat.Click += new System.EventHandler(this.kĩLuậtToolStripMenuItem_Click);
             // 
+            // qtct
+            // 
+            this.qtct.Name = "qtct";
+            this.qtct.Size = new System.Drawing.Size(105, 37);
+            this.qtct.Text = "QT Công Tác";
+            this.qtct.Click += new System.EventHandler(this.qTCôngTácToolStripMenuItem_Click);
+            // 
             // pContainer1
             // 
             this.pContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -145,5 +154,6 @@
         private System.Windows.Forms.ToolStripMenuItem thuong;
         private System.Windows.Forms.ToolStripMenuItem kiluat;
         private System.Windows.Forms.Panel pContainer1;
+        private System.Windows.Forms.ToolStripMenuItem qtct;
     }
 }
